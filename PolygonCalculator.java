@@ -26,7 +26,7 @@ public class PolygonCalculator
 		}while(n < 2); //if number of points is small, try again
         
         
-		polygono.readPoints(n); //read all points
+		polygon.readPoints(n); //read all points
 		
 		System.out.print("The perimeter is : ");
 		System.out.println(polygon.perimeter(n)); //print perimeter of polygon
